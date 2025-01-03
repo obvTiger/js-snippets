@@ -33,10 +33,18 @@ File: [`simple-command-line-ai-chatbot.js`](node/simple-command-line-ai-chatbot.
 
 A simple command line chatbot that uses the wireway.ai API for natural language processing.
 Run `node simple-command-line-ai-chatbot.js` to start the chatbot. 
+
+### Simple express server
+File: [`simple-express-server.js`](node/simple-express-server.js)
+
+A simple express server that serves a "Hello World!" message on the root route.
+Run `node simple-express-server.js` to start the server.
+
+
+
 ## Usage
 
 Each snippet is self-contained and can be used independently. Simply include the relevant JS and CSS files in your project and initialize the functionality as needed.
-
 ## License
 
 You may modify all scripts to your liking. Attribution is appreciated but not required You are prohibited from claiming these scripts as your own work. Redistribution of unmodified scripts is not allowed.
