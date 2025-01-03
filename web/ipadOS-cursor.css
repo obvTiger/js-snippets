@@ -1,0 +1,38 @@
+.contact-links {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.contact-link {
+    color: black;
+    text-decoration: none;
+    padding: 12px 24px;
+    background: transparent;
+    border-radius: 8px;
+    position: relative;
+    cursor: none;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+        background-color 0.2s ease;
+}
+
+#custom-cursor {
+    width: 20px;
+    height: 20px;
+    background-color: #bababa8e;
+    border-radius: 32px;
+    position: fixed;
+    pointer-events: none;
+    z-index: 99999;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+#custom-cursor.expanded {
+    opacity: 0.3;
+}
+
+* {
+    cursor: none !important;
+}
